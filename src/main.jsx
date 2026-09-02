@@ -26,7 +26,6 @@ const products = [
     description: 'Full over-ear coverage with a female four-pin XLR connector for compatible Clear-Com intercom equipment.',
     image: '/images/double-muff-headset.webp',
     alt: 'Double-muff communication headset with boom microphone',
-    imageMode: 'headset-only',
     url: 'https://www.amazon.com/Double-Intercom-Headphones-Connector-Clearcom/dp/B07SZHNRVN/',
   },
   {
@@ -39,7 +38,6 @@ const products = [
     description: 'Double-muff stereo monitoring with a male five-pin XLR connector for compatible RTS intercom equipment.',
     image: '/images/double-muff-headset.webp',
     alt: 'Double-muff stereo communication headset with boom microphone',
-    imageMode: 'full-product',
     url: 'https://www.amazon.com/Double-Intercom-Headphones-Connector-Stereo/dp/B09H3V45W4/',
   },
   {
@@ -52,7 +50,6 @@ const products = [
     description: 'One-ear monitoring with a male five-pin XLR connector. Verify the connector and pinout required by your system.',
     image: '/images/single-muff-headset.jpg',
     alt: 'Single-muff communication headset with boom microphone',
-    imageMode: 'headset-only',
     url: 'https://www.amazon.com/Single-Intercom-Headset-Clearcom-Headphone/dp/B09B1J3TQ1/',
   },
   {
@@ -65,7 +62,6 @@ const products = [
     description: 'Single-ear coverage with a female four-pin XLR connector for compatible Clear-Com intercom equipment.',
     image: '/images/single-muff-headset.jpg',
     alt: 'Single-muff communication headset with boom microphone and female four-pin XLR connector',
-    imageMode: 'full-product',
     url: 'https://www.amazon.com/Clearcom-Intercom-Headset-Connector-Headphone/dp/B09F3VLZ6N/',
   },
   {
@@ -78,7 +74,6 @@ const products = [
     description: 'One-ear monitoring with an installed male four-pin XLR connector for compatible RTS intercom equipment.',
     image: '/images/single-muff-headset.jpg',
     alt: 'Single-muff communication headset with boom microphone',
-    imageMode: 'headset-only',
     url: 'https://www.amazon.com/Single-Intercom-Headphones-Connector-Installed/dp/B0CD4QNL6N/',
   },
 ]
@@ -195,7 +190,7 @@ function App() {
             <div className="product-grid" aria-live="polite">
               {visibleProducts.map((product) => (
                 <article className="product-card" key={product.asin}>
-                  <div className={`product-image ${product.imageMode}`}>
+                  <div className="product-image">
                     <img src={product.image} alt={product.alt} loading="lazy" />
                   </div>
                   <div className="product-copy">
