@@ -24,8 +24,8 @@ const products = [
     system: 'Clear-Com',
     title: 'Clear-Com Double-Muff Headset',
     description: 'Full over-ear coverage with a female four-pin XLR connector for compatible Clear-Com intercom equipment.',
-    image: '/images/double-muff-headset.webp',
-    alt: 'Double-muff communication headset with boom microphone',
+    image: '/images/b07szhnrvn-double-female-4-pin.jpg',
+    alt: 'Double-muff Clear-Com communication headset with boom microphone and female four-pin XLR connector',
     url: 'https://www.amazon.com/Double-Intercom-Headphones-Connector-Clearcom/dp/B07SZHNRVN/',
   },
   {
@@ -36,8 +36,8 @@ const products = [
     system: 'RTS stereo',
     title: 'RTS Double-Muff Stereo Headset',
     description: 'Double-muff stereo monitoring with a male five-pin XLR connector for compatible RTS intercom equipment.',
-    image: '/images/double-muff-headset.webp',
-    alt: 'Double-muff stereo communication headset with boom microphone',
+    image: '/images/b09h3v45w4-double-male-5-pin.jpg',
+    alt: 'Double-muff RTS stereo communication headset with boom microphone and male five-pin XLR connector',
     url: 'https://www.amazon.com/Double-Intercom-Headphones-Connector-Stereo/dp/B09H3V45W4/',
   },
   {
@@ -48,8 +48,8 @@ const products = [
     system: 'Intercom',
     title: 'Male 5-Pin Single-Muff Headset',
     description: 'One-ear monitoring with a male five-pin XLR connector. Verify the connector and pinout required by your system.',
-    image: '/images/single-muff-headset.jpg',
-    alt: 'Single-muff communication headset with boom microphone',
+    image: '/images/b09b1j3tq1-single-male-5-pin.jpg',
+    alt: 'Single-muff communication headset with boom microphone and male five-pin XLR connector',
     url: 'https://www.amazon.com/Single-Intercom-Headset-Clearcom-Headphone/dp/B09B1J3TQ1/',
   },
   {
@@ -60,7 +60,7 @@ const products = [
     system: 'Clear-Com',
     title: 'Clear-Com Single-Muff Headset',
     description: 'Single-ear coverage with a female four-pin XLR connector for compatible Clear-Com intercom equipment.',
-    image: '/images/single-muff-headset.jpg',
+    image: '/images/b09f3vlz6n-single-female-4-pin.jpg',
     alt: 'Single-muff communication headset with boom microphone and female four-pin XLR connector',
     url: 'https://www.amazon.com/Clearcom-Intercom-Headset-Connector-Headphone/dp/B09F3VLZ6N/',
   },
@@ -72,8 +72,8 @@ const products = [
     system: 'RTS',
     title: 'RTS Single-Muff Headset',
     description: 'One-ear monitoring with an installed male four-pin XLR connector for compatible RTS intercom equipment.',
-    image: '/images/single-muff-headset.jpg',
-    alt: 'Single-muff communication headset with boom microphone',
+    image: '/images/b0cd4qnl6n-single-male-4-pin.png',
+    alt: 'Single-muff RTS communication headset with boom microphone and male four-pin XLR connector',
     url: 'https://www.amazon.com/Single-Intercom-Headphones-Connector-Installed/dp/B0CD4QNL6N/',
   },
 ]
@@ -217,7 +217,7 @@ function App() {
         <section className="fit-guide" id="fit-guide" aria-labelledby="guide-title">
           <div className="page-shell fit-grid">
             <div className="fit-image">
-              <img src="/images/single-muff-headset.jpg" alt="Close view of a single-muff communication headset and four-pin XLR connector" loading="lazy" />
+              <img src="/images/b09f3vlz6n-single-female-4-pin.jpg" alt="Close view of a single-muff communication headset and female four-pin XLR connector" loading="lazy" />
             </div>
             <div className="fit-copy">
               <p className="section-kicker">A quick fit guide</p>
